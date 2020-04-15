@@ -9,6 +9,10 @@ namespace ConsoleIO
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                ConsoleIO.WriteLine(ConsoleIO.ReadLine());
+            }
         }
     }
 }
